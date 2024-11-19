@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @MapperScan("com.heima.item.mapper")
 @SpringBootApplication
-public class ItemApplication {
+public class  ItemApplication {
     public static void main(String[] args) {
         SpringApplication.run(ItemApplication.class, args);
     }
